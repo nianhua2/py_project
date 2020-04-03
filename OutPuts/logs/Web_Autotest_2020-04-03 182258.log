@@ -1,0 +1,957 @@
+ 2020-04-03 18:22:58  INFO my_logger.py <module> [ line:25 ] hehehe
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:09.557538,结束时间为2020-04-03 18:23:09.583434,等待耗时时间是0:00:00.025896
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:09.680546,结束时间为2020-04-03 18:23:09.707320,等待耗时时间是0:00:00.026774
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:23:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:09.785191,结束时间为2020-04-03 18:23:09.803543,等待耗时时间是0:00:00.018352
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:23:09  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:23:31  INFO basepage.py judge_element_exist_visible [ line:126 ] 在页面:主页_检查我的账户判断元素：('xpath', '//a[contains(text(),"我的帐户")]')是否存在且可见
+ 2020-04-03 18:23:31  INFO basepage.py judge_element_exist_visible [ line:134 ] 在10时间内，找到了元素('xpath', '//a[contains(text(),"我的帐户")]')
+ 2020-04-03 18:23:44  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:23:44  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:44.838040,结束时间为2020-04-03 18:23:44.861693,等待耗时时间是0:00:00.023653
+ 2020-04-03 18:23:44  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:44  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:44  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:
+ 2020-04-03 18:23:44  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:23:44  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:44.910302,结束时间为2020-04-03 18:23:44.944525,等待耗时时间是0:00:00.034223
+ 2020-04-03 18:23:44  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:23:44  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:23:44  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:23:45  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:23:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:45.026863,结束时间为2020-04-03 18:23:45.046702,等待耗时时间是0:00:00.019839
+ 2020-04-03 18:23:45  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:23:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:23:45  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:23:47  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取前台校验的文本值:等待('xpath', '//div[@class="form-error-info"]')元素可见
+ 2020-04-03 18:23:47  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:47.135717,结束时间为2020-04-03 18:23:47.155603,等待耗时时间是0:00:00.019886
+ 2020-04-03 18:23:47  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取前台校验的文本值: 查找('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:23:47  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:23:47  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取前台校验的文本值获取元素('xpath', '//div[@class="form-error-info"]')的文本值
+ 2020-04-03 18:23:47  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取前台校验的文本值,获取文本值为请输入手机号
+ 2020-04-03 18:23:59  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:23:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:23:59.904330,结束时间为2020-04-03 18:23:59.928557,等待耗时时间是0:00:00.024227
+ 2020-04-03 18:23:59  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:23:59  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:24:00  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:24:00  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:00.037347,结束时间为2020-04-03 18:24:00.062000,等待耗时时间是0:00:00.024653
+ 2020-04-03 18:24:00  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:00  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:00  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:
+ 2020-04-03 18:24:00  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:24:00  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:00.124486,结束时间为2020-04-03 18:24:00.148294,等待耗时时间是0:00:00.023808
+ 2020-04-03 18:24:00  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:00  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:00  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:24:02  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取前台校验的文本值:等待('xpath', '//div[@class="form-error-info"]')元素可见
+ 2020-04-03 18:24:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:02.232837,结束时间为2020-04-03 18:24:02.254566,等待耗时时间是0:00:00.021729
+ 2020-04-03 18:24:02  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取前台校验的文本值: 查找('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:02  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取前台校验的文本值获取元素('xpath', '//div[@class="form-error-info"]')的文本值
+ 2020-04-03 18:24:02  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取前台校验的文本值,获取文本值为请输入密码
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:15.575486,结束时间为2020-04-03 18:24:15.604741,等待耗时时间是0:00:00.029255
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:1868472055
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:15.708898,结束时间为2020-04-03 18:24:15.732706,等待耗时时间是0:00:00.023808
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:24:15  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:15.809091,结束时间为2020-04-03 18:24:15.836371,等待耗时时间是0:00:00.027280
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:15  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:24:17  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取前台校验的文本值:等待('xpath', '//div[@class="form-error-info"]')元素可见
+ 2020-04-03 18:24:17  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:17.925262,结束时间为2020-04-03 18:24:17.944388,等待耗时时间是0:00:00.019126
+ 2020-04-03 18:24:17  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取前台校验的文本值: 查找('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:17  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:17  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取前台校验的文本值获取元素('xpath', '//div[@class="form-error-info"]')的文本值
+ 2020-04-03 18:24:17  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取前台校验的文本值,获取文本值为请输入正确的手机号
+ 2020-04-03 18:24:30  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:24:30  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:30.808405,结束时间为2020-04-03 18:24:30.834398,等待耗时时间是0:00:00.025993
+ 2020-04-03 18:24:30  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:30  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:30  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:1868472055a
+ 2020-04-03 18:24:30  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:24:30  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:30.933644,结束时间为2020-04-03 18:24:30.961927,等待耗时时间是0:00:00.028283
+ 2020-04-03 18:24:30  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:30  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:30  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:24:31  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:24:31  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:31.049461,结束时间为2020-04-03 18:24:31.072772,等待耗时时间是0:00:00.023311
+ 2020-04-03 18:24:31  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:31  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:31  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:24:33  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取前台校验的文本值:等待('xpath', '//div[@class="form-error-info"]')元素可见
+ 2020-04-03 18:24:33  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:33.153990,结束时间为2020-04-03 18:24:33.172813,等待耗时时间是0:00:00.018823
+ 2020-04-03 18:24:33  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取前台校验的文本值: 查找('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:33  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:33  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取前台校验的文本值获取元素('xpath', '//div[@class="form-error-info"]')的文本值
+ 2020-04-03 18:24:33  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取前台校验的文本值,获取文本值为请输入正确的手机号
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:46.092088,结束时间为2020-04-03 18:24:46.119864,等待耗时时间是0:00:00.027776
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:186847205538
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:46.237067,结束时间为2020-04-03 18:24:46.264037,等待耗时时间是0:00:00.026970
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:24:46  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:46.333771,结束时间为2020-04-03 18:24:46.360755,等待耗时时间是0:00:00.026984
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:24:46  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:24:48  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取前台校验的文本值:等待('xpath', '//div[@class="form-error-info"]')元素可见
+ 2020-04-03 18:24:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:24:48.443049,结束时间为2020-04-03 18:24:48.463881,等待耗时时间是0:00:00.020832
+ 2020-04-03 18:24:48  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取前台校验的文本值: 查找('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="form-error-info"]')元素
+ 2020-04-03 18:24:48  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取前台校验的文本值获取元素('xpath', '//div[@class="form-error-info"]')的文本值
+ 2020-04-03 18:24:48  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取前台校验的文本值,获取文本值为请输入正确的手机号
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:01.251245,结束时间为2020-04-03 18:25:01.279811,等待耗时时间是0:00:00.028566
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:01.379981,结束时间为2020-04-03 18:25:01.405773,等待耗时时间是0:00:00.025792
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python299
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:25:01  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:01.490594,结束时间为2020-04-03 18:25:01.509932,等待耗时时间是0:00:00.019338
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:25:01  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:25:03  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_获取后台校验的文本值:等待('xpath', '//div[@class="layui-layer-content"]')元素可见
+ 2020-04-03 18:25:03  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:03.603304,结束时间为2020-04-03 18:25:03.620313,等待耗时时间是0:00:00.017009
+ 2020-04-03 18:25:03  INFO basepage.py get_element [ line:49 ] 页面登录页面_获取后台校验的文本值: 查找('xpath', '//div[@class="layui-layer-content"]')元素
+ 2020-04-03 18:25:03  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="layui-layer-content"]')元素
+ 2020-04-03 18:25:03  INFO basepage.py get_element_text [ line:95 ] 在页面:登录页面_获取后台校验的文本值获取元素('xpath', '//div[@class="layui-layer-content"]')的文本值
+ 2020-04-03 18:25:03  INFO basepage.py get_element_text [ line:103 ] 在页面登录页面_获取后台校验的文本值,获取文本值为帐号或密码错误!
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:16.426711,结束时间为2020-04-03 18:25:16.452590,等待耗时时间是0:00:00.025879
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:16.562976,结束时间为2020-04-03 18:25:16.599050,等待耗时时间是0:00:00.036074
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:16.681881,结束时间为2020-04-03 18:25:16.704696,等待耗时时间是0:00:00.022815
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:25:16  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:25:16  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:25:38  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:25:16.814313,结束时间为2020-04-03 18:25:38.456184,等待耗时时间是0:00:21.641871
+ 2020-04-03 18:25:38  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:25:38  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:25:38  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款金额:等待('xpath', '//span[@class="mo_span2"]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.372382,结束时间为2020-04-03 18:26:02.397222,等待耗时时间是0:00:00.024840
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款金额: 查找('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款金额获取元素('xpath', '//span[@class="mo_span2"]')的文本值
+ 2020-04-03 18:26:02  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款金额,获取文本值为20
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.418372,结束时间为2020-04-03 18:26:02.439060,等待耗时时间是0:00:00.020688
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:26:02  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.467333,结束时间为2020-04-03 18:26:02.485791,等待耗时时间是0:00:00.018458
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:26:02  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.501658,结束时间为2020-04-03 18:26:02.516223,等待耗时时间是0:00:00.014565
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:26:02  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:5000
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.577078,结束时间为2020-04-03 18:26:02.601957,等待耗时时间是0:00:00.024879
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:02.602416,结束时间为2020-04-03 18:26:02.624331,等待耗时时间是0:00:00.021915
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:26:02  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:26:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击查看激活:等待('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')元素可见
+ 2020-04-03 18:26:23  ERROR basepage.py wait_element_visible [ line:34 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "C:\Users\86176\.jenkins\workspace\python_web\Common\basepage.py", line 31, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_all_elements_located(locator))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ 2020-04-03 18:26:23  INFO basepage.py save_screenshot_to_picture [ line:158 ] 保存截图成功,路径为：C:\Users\86176\.jenkins\workspace\python_web\OUTPuts\picture/投标页面_点击查看激活_2020-04-03 18_26_23.png
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:41.186833,结束时间为2020-04-03 18:26:41.211107,等待耗时时间是0:00:00.024274
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:41.316557,结束时间为2020-04-03 18:26:41.343929,等待耗时时间是0:00:00.027372
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:41.424166,结束时间为2020-04-03 18:26:41.444998,等待耗时时间是0:00:00.020832
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:26:41  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:26:41  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:27:03  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:26:41.520640,结束时间为2020-04-03 18:27:03.092483,等待耗时时间是0:00:21.571843
+ 2020-04-03 18:27:03  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:27:03  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:27:03  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款金额:等待('xpath', '//span[@class="mo_span2"]')元素可见
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:26.851986,结束时间为2020-04-03 18:27:26.877414,等待耗时时间是0:00:00.025428
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款金额: 查找('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款金额获取元素('xpath', '//span[@class="mo_span2"]')的文本值
+ 2020-04-03 18:27:26  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款金额,获取文本值为20
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:26.898442,结束时间为2020-04-03 18:27:26.917205,等待耗时时间是0:00:00.018763
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:27:26  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:26.941075,结束时间为2020-04-03 18:27:26.958931,等待耗时时间是0:00:00.017856
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:27:26  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:27:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:26.973798,结束时间为2020-04-03 18:27:26.987806,等待耗时时间是0:00:00.014008
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:27:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:27:26  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:5000
+ 2020-04-03 18:27:27  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:27:27  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:27.052534,结束时间为2020-04-03 18:27:27.082294,等待耗时时间是0:00:00.029760
+ 2020-04-03 18:27:27  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:27:27  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:27:27.082789,结束时间为2020-04-03 18:27:27.107119,等待耗时时间是0:00:00.024330
+ 2020-04-03 18:27:27  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:27:27  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:27:27  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:27:27  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击查看激活:等待('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')元素可见
+ 2020-04-03 18:27:47  ERROR basepage.py wait_element_visible [ line:34 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "C:\Users\86176\.jenkins\workspace\python_web\Common\basepage.py", line 31, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_all_elements_located(locator))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ 2020-04-03 18:27:47  INFO basepage.py save_screenshot_to_picture [ line:158 ] 保存截图成功,路径为：C:\Users\86176\.jenkins\workspace\python_web\OUTPuts\picture/投标页面_点击查看激活_2020-04-03 18_27_47.png
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:05.569432,结束时间为2020-04-03 18:28:05.598838,等待耗时时间是0:00:00.029406
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:05.690226,结束时间为2020-04-03 18:28:05.720119,等待耗时时间是0:00:00.029893
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:05.791070,结束时间为2020-04-03 18:28:05.809918,等待耗时时间是0:00:00.018848
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:28:05  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:28:05  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:28:27  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:05.938358,结束时间为2020-04-03 18:28:27.659656,等待耗时时间是0:00:21.721298
+ 2020-04-03 18:28:27  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:28:27  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:28:27  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款金额:等待('xpath', '//span[@class="mo_span2"]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.406495,结束时间为2020-04-03 18:28:51.434696,等待耗时时间是0:00:00.028201
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款金额: 查找('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span2"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款金额获取元素('xpath', '//span[@class="mo_span2"]')的文本值
+ 2020-04-03 18:28:51  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款金额,获取文本值为20
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.455729,结束时间为2020-04-03 18:28:51.474634,等待耗时时间是0:00:00.018905
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:28:51  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.495388,结束时间为2020-04-03 18:28:51.518735,等待耗时时间是0:00:00.023347
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:28:51  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.534105,结束时间为2020-04-03 18:28:51.548451,等待耗时时间是0:00:00.014346
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:28:51  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:5000
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.607005,结束时间为2020-04-03 18:28:51.636134,等待耗时时间是0:00:00.029129
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:28:51.637154,结束时间为2020-04-03 18:28:51.658559,等待耗时时间是0:00:00.021405
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:28:51  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:28:51  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击查看激活:等待('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')元素可见
+ 2020-04-03 18:29:12  ERROR basepage.py wait_element_visible [ line:34 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "C:\Users\86176\.jenkins\workspace\python_web\Common\basepage.py", line 31, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_all_elements_located(locator))
+  File "C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ 2020-04-03 18:29:12  INFO basepage.py save_screenshot_to_picture [ line:158 ] 保存截图成功,路径为：C:\Users\86176\.jenkins\workspace\python_web\OUTPuts\picture/投标页面_点击查看激活_2020-04-03 18_29_12.png
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:29:25.316653,结束时间为2020-04-03 18:29:25.343909,等待耗时时间是0:00:00.027256
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:29:25.476447,结束时间为2020-04-03 18:29:25.504718,等待耗时时间是0:00:00.028271
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:29:25.584575,结束时间为2020-04-03 18:29:25.608880,等待耗时时间是0:00:00.024305
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:29:25  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:29:25  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:29:47  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:29:25.709567,结束时间为2020-04-03 18:29:47.333784,等待耗时时间是0:00:21.624217
+ 2020-04-03 18:29:47  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:29:47  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:29:47  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:11.127899,结束时间为2020-04-03 18:30:11.154551,等待耗时时间是0:00:00.026652
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:30:11  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:11.176460,结束时间为2020-04-03 18:30:11.193720,等待耗时时间是0:00:00.017260
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:30:11  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:11.211044,结束时间为2020-04-03 18:30:11.226060,等待耗时时间是0:00:00.015016
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:11  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:123
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:30:11  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:11.289874,结束时间为2020-04-03 18:30:11.314672,等待耗时时间是0:00:00.024798
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:30:11  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:30:11  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为投标
+ 2020-04-03 18:30:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:30:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:35.081246,结束时间为2020-04-03 18:30:35.107633,等待耗时时间是0:00:00.026387
+ 2020-04-03 18:30:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:30:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:30:35  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:30:35  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:30:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:30:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:35.130935,结束时间为2020-04-03 18:30:35.154336,等待耗时时间是0:00:00.023401
+ 2020-04-03 18:30:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:30:35  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:30:35  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:54.690953,结束时间为2020-04-03 18:30:54.714607,等待耗时时间是0:00:00.023654
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:54.812553,结束时间为2020-04-03 18:30:54.842313,等待耗时时间是0:00:00.029760
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:30:54  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:54.923161,结束时间为2020-04-03 18:30:54.942505,等待耗时时间是0:00:00.019344
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:30:54  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:30:55  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:31:16  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:30:55.032638,结束时间为2020-04-03 18:31:16.711084,等待耗时时间是0:00:21.678446
+ 2020-04-03 18:31:16  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:31:16  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:31:16  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:31:40.533512,结束时间为2020-04-03 18:31:40.559848,等待耗时时间是0:00:00.026336
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:31:40  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:31:40.582998,结束时间为2020-04-03 18:31:40.600838,等待耗时时间是0:00:00.017840
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:31:40  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:31:40.618534,结束时间为2020-04-03 18:31:40.633977,等待耗时时间是0:00:00.015443
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:31:40  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:123
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:31:40  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:31:40.690804,结束时间为2020-04-03 18:31:40.710168,等待耗时时间是0:00:00.019364
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:31:40  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:31:40  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:32:04  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:32:04  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:04.268571,结束时间为2020-04-03 18:32:04.292912,等待耗时时间是0:00:00.024341
+ 2020-04-03 18:32:04  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:32:04  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:32:04  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:32:04  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:32:04  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:32:04  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:04.316994,结束时间为2020-04-03 18:32:04.340650,等待耗时时间是0:00:00.023656
+ 2020-04-03 18:32:04  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:32:04  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:32:04  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:32:04  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:17.179046,结束时间为2020-04-03 18:32:17.206524,等待耗时时间是0:00:00.027478
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:17.329559,结束时间为2020-04-03 18:32:17.360809,等待耗时时间是0:00:00.031250
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:17.440167,结束时间为2020-04-03 18:32:17.468439,等待耗时时间是0:00:00.028272
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:32:17  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:32:17  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:32:39  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:32:17.539863,结束时间为2020-04-03 18:32:39.118050,等待耗时时间是0:00:21.578187
+ 2020-04-03 18:32:39  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:32:39  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:32:39  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:33:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:33:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:02.941602,结束时间为2020-04-03 18:33:02.965481,等待耗时时间是0:00:00.023879
+ 2020-04-03 18:33:02  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:33:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:33:02  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:33:02  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:33:02  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:33:03  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:02.986488,结束时间为2020-04-03 18:33:03.006713,等待耗时时间是0:00:00.020225
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:03  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:33:03  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:33:03  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:33:03  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:03.022057,结束时间为2020-04-03 18:33:03.036133,等待耗时时间是0:00:00.014076
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:03  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:-12
+ 2020-04-03 18:33:03  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:33:03  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:03.101159,结束时间为2020-04-03 18:33:03.124459,等待耗时时间是0:00:00.023300
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:33:03  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:33:03  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:33:03  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:33:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:33:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:26.879674,结束时间为2020-04-03 18:33:26.902577,等待耗时时间是0:00:00.022903
+ 2020-04-03 18:33:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:33:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:33:26  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:33:26  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:33:26  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:33:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:26.925940,结束时间为2020-04-03 18:33:26.950877,等待耗时时间是0:00:00.024937
+ 2020-04-03 18:33:26  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:33:26  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:33:26  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:33:39  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:33:39  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:39.827224,结束时间为2020-04-03 18:33:39.857404,等待耗时时间是0:00:00.030180
+ 2020-04-03 18:33:39  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:33:39  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:33:39  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:33:39  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:33:39  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:39.969132,结束时间为2020-04-03 18:33:39.994880,等待耗时时间是0:00:00.025748
+ 2020-04-03 18:33:39  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:33:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:33:40  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:33:40  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:33:40  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:40.073246,结束时间为2020-04-03 18:33:40.093583,等待耗时时间是0:00:00.020337
+ 2020-04-03 18:33:40  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:33:40  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:33:40  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:33:40  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:34:01  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:33:40.176123,结束时间为2020-04-03 18:34:01.790793,等待耗时时间是0:00:21.614670
+ 2020-04-03 18:34:01  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:34:01  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:34:01  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:25.660466,结束时间为2020-04-03 18:34:25.688201,等待耗时时间是0:00:00.027735
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:34:25  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:25.708478,结束时间为2020-04-03 18:34:25.726378,等待耗时时间是0:00:00.017900
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:34:25  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:25.743738,结束时间为2020-04-03 18:34:25.760497,等待耗时时间是0:00:00.016759
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:25  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:a
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:34:25  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:25.820163,结束时间为2020-04-03 18:34:25.845459,等待耗时时间是0:00:00.025296
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:34:25  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:34:25  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:34:49  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:34:49  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:49.661061,结束时间为2020-04-03 18:34:49.684944,等待耗时时间是0:00:00.023883
+ 2020-04-03 18:34:49  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:34:49  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:34:49  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:34:49  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:34:49  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:34:49  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:34:49.710122,结束时间为2020-04-03 18:34:49.733063,等待耗时时间是0:00:00.022941
+ 2020-04-03 18:34:49  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:49  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:34:49  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:34:49  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:02.555418,结束时间为2020-04-03 18:35:02.582223,等待耗时时间是0:00:00.026805
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:02.683383,结束时间为2020-04-03 18:35:02.714137,等待耗时时间是0:00:00.030754
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:02.801927,结束时间为2020-04-03 18:35:02.824247,等待耗时时间是0:00:00.022320
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:35:02  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:35:02  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:35:24  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:02.905098,结束时间为2020-04-03 18:35:24.596688,等待耗时时间是0:00:21.691590
+ 2020-04-03 18:35:24  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:35:24  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:35:24  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:48.422815,结束时间为2020-04-03 18:35:48.449037,等待耗时时间是0:00:00.026222
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:35:48  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:48.471234,结束时间为2020-04-03 18:35:48.490574,等待耗时时间是0:00:00.019340
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:35:48  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:48.505992,结束时间为2020-04-03 18:35:48.519895,等待耗时时间是0:00:00.013903
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:35:48  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:￥
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:35:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:35:48.568589,结束时间为2020-04-03 18:35:48.590721,等待耗时时间是0:00:00.022132
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:35:48  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:35:48  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:36:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:36:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:12.387026,结束时间为2020-04-03 18:36:12.409837,等待耗时时间是0:00:00.022811
+ 2020-04-03 18:36:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:36:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:36:12  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:36:12  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:36:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:36:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:12.436793,结束时间为2020-04-03 18:36:12.458409,等待耗时时间是0:00:00.021616
+ 2020-04-03 18:36:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:36:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:36:12  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:36:12  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:26.538004,结束时间为2020-04-03 18:36:26.561685,等待耗时时间是0:00:00.023681
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:26.665292,结束时间为2020-04-03 18:36:26.690588,等待耗时时间是0:00:00.025296
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:26.763500,结束时间为2020-04-03 18:36:26.792269,等待耗时时间是0:00:00.028769
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:36:26  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:36:26  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:36:48  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:36:26.885023,结束时间为2020-04-03 18:36:48.731668,等待耗时时间是0:00:21.846645
+ 2020-04-03 18:36:48  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:36:48  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:36:48  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:12.525886,结束时间为2020-04-03 18:37:12.551957,等待耗时时间是0:00:00.026071
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:37:12  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:12.578262,结束时间为2020-04-03 18:37:12.598147,等待耗时时间是0:00:00.019885
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:37:12  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:12.616011,结束时间为2020-04-03 18:37:12.633339,等待耗时时间是0:00:00.017328
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:12  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:100.25
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:37:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:12.704580,结束时间为2020-04-03 18:37:12.726398,等待耗时时间是0:00:00.021818
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:37:12  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:37:12  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:37:36  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:37:36  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:36.446613,结束时间为2020-04-03 18:37:36.470114,等待耗时时间是0:00:00.023501
+ 2020-04-03 18:37:36  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:37:36  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:37:36  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:37:36  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:37:36  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:37:36  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:36.491496,结束时间为2020-04-03 18:37:36.518135,等待耗时时间是0:00:00.026639
+ 2020-04-03 18:37:36  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:36  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:37:36  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:37:36  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:49.308334,结束时间为2020-04-03 18:37:49.334480,等待耗时时间是0:00:00.026146
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:49.431983,结束时间为2020-04-03 18:37:49.458767,等待耗时时间是0:00:00.026784
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:49.538684,结束时间为2020-04-03 18:37:49.556975,等待耗时时间是0:00:00.018291
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:37:49  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:37:49  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:38:11  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:37:49.685935,结束时间为2020-04-03 18:38:11.717957,等待耗时时间是0:00:22.032022
+ 2020-04-03 18:38:11  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:38:11  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:38:11  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:35.633998,结束时间为2020-04-03 18:38:35.658073,等待耗时时间是0:00:00.024075
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:38:35  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:35.679481,结束时间为2020-04-03 18:38:35.696629,等待耗时时间是0:00:00.017148
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:38:35  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:35.713342,结束时间为2020-04-03 18:38:35.729214,等待耗时时间是0:00:00.015872
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:35  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:300a
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取按钮上错误信息:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:38:35  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:35.795415,结束时间为2020-04-03 18:38:35.819221,等待耗时时间是0:00:00.023806
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取按钮上错误信息: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:38:35  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取按钮上错误信息获取元素('xpath', '// button[@class="btn btn-special height_style"]')的文本值
+ 2020-04-03 18:38:35  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取按钮上错误信息,获取文本值为请输入10的整数倍
+ 2020-04-03 18:38:59  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:38:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:59.587239,结束时间为2020-04-03 18:38:59.611543,等待耗时时间是0:00:00.024304
+ 2020-04-03 18:38:59  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:38:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:38:59  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:38:59  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:38:59  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:38:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:38:59.635046,结束时间为2020-04-03 18:38:59.660659,等待耗时时间是0:00:00.025613
+ 2020-04-03 18:38:59  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:38:59  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:38:59  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:12.438356,结束时间为2020-04-03 18:39:12.466726,等待耗时时间是0:00:00.028370
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:12.565219,结束时间为2020-04-03 18:39:12.598067,等待耗时时间是0:00:00.032848
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:12.682882,结束时间为2020-04-03 18:39:12.708178,等待耗时时间是0:00:00.025296
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:39:12  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:39:12  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:39:34  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:12.801924,结束时间为2020-04-03 18:39:34.517572,等待耗时时间是0:00:21.715648
+ 2020-04-03 18:39:34  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:39:34  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:39:34  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.310694,结束时间为2020-04-03 18:39:58.338915,等待耗时时间是0:00:00.028221
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:39:58  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.360690,结束时间为2020-04-03 18:39:58.381104,等待耗时时间是0:00:00.020414
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:39:58  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.398513,结束时间为2020-04-03 18:39:58.411879,等待耗时时间是0:00:00.013366
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:39:58  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:0
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.456933,结束时间为2020-04-03 18:39:58.484253,等待耗时时间是0:00:00.027320
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.484788,结束时间为2020-04-03 18:39:58.506786,等待耗时时间是0:00:00.021998
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:39:58  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:39:58  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:39:58  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取弹窗的错误信息:等待('xpath', '//div[@class="text-center"]')元素可见
+ 2020-04-03 18:39:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:58.576408,结束时间为2020-04-03 18:39:59.104874,等待耗时时间是0:00:00.528466
+ 2020-04-03 18:39:59  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取弹窗的错误信息: 查找('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:39:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:39:59  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取弹窗的错误信息获取元素('xpath', '//div[@class="text-center"]')的文本值
+ 2020-04-03 18:39:59  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取弹窗的错误信息,获取文本值为请正确填写投标金额
+ 2020-04-03 18:39:59  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:40:23  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:39:59.130613,结束时间为2020-04-03 18:40:23.021903,等待耗时时间是0:00:23.891290
+ 2020-04-03 18:40:23  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:40:23  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:40:23  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:40:23  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为100
+ 2020-04-03 18:40:23  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:40:23  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:40:23.045763,结束时间为2020-04-03 18:40:23.068987,等待耗时时间是0:00:00.023224
+ 2020-04-03 18:40:23  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:40:23  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:40:23  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:40:23  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:40:36.121742,结束时间为2020-04-03 18:40:36.147270,等待耗时时间是0:00:00.025528
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:40:36.247076,结束时间为2020-04-03 18:40:36.276339,等待耗时时间是0:00:00.029263
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:40:36.351732,结束时间为2020-04-03 18:40:36.371573,等待耗时时间是0:00:00.019841
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:40:36  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:40:36  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:40:58  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:40:36.438071,结束时间为2020-04-03 18:40:58.112633,等待耗时时间是0:00:21.674562
+ 2020-04-03 18:40:58  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:40:58  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:40:58  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:41:21  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:41:21  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:21.952950,结束时间为2020-04-03 18:41:21.980065,等待耗时时间是0:00:00.027115
+ 2020-04-03 18:41:21  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:41:21  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:41:21  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:41:22  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.91
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:22.000731,结束时间为2020-04-03 18:41:22.020551,等待耗时时间是0:00:00.019820
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:41:22  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:22.037842,结束时间为2020-04-03 18:41:22.054381,等待耗时时间是0:00:00.016539
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:22  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:-200
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:22.119855,结束时间为2020-04-03 18:41:22.145600,等待耗时时间是0:00:00.025745
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:22.146390,结束时间为2020-04-03 18:41:22.170793,等待耗时时间是0:00:00.024403
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:41:22  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取弹窗的错误信息:等待('xpath', '//div[@class="text-center"]')元素可见
+ 2020-04-03 18:41:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:22.240568,结束时间为2020-04-03 18:41:22.771418,等待耗时时间是0:00:00.530850
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取弹窗的错误信息: 查找('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:41:22  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取弹窗的错误信息获取元素('xpath', '//div[@class="text-center"]')的文本值
+ 2020-04-03 18:41:22  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取弹窗的错误信息,获取文本值为请正确填写投标金额
+ 2020-04-03 18:41:46  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:41:46  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:46.561140,结束时间为2020-04-03 18:41:46.585302,等待耗时时间是0:00:00.024162
+ 2020-04-03 18:41:46  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:41:46  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:41:46  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:41:46  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.91
+ 2020-04-03 18:41:46  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:41:46  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:46.610942,结束时间为2020-04-03 18:41:46.634252,等待耗时时间是0:00:00.023310
+ 2020-04-03 18:41:46  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:46  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:41:46  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:41:46  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150905919.21
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:59.338515,结束时间为2020-04-03 18:41:59.363811,等待耗时时间是0:00:00.025296
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:59.462025,结束时间为2020-04-03 18:41:59.492908,等待耗时时间是0:00:00.030883
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:59.565689,结束时间为2020-04-03 18:41:59.585528,等待耗时时间是0:00:00.019839
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:41:59  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:41:59  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:42:21  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:41:59.656458,结束时间为2020-04-03 18:42:21.298970,等待耗时时间是0:00:21.642512
+ 2020-04-03 18:42:21  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:42:21  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:42:21  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.107559,结束时间为2020-04-03 18:42:45.133115,等待耗时时间是0:00:00.025556
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:42:45  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.71
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.155899,结束时间为2020-04-03 18:42:45.176562,等待耗时时间是0:00:00.020663
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:42:45  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150903919.21
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.195279,结束时间为2020-04-03 18:42:45.209198,等待耗时时间是0:00:00.013919
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:42:45  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为: 
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.254256,结束时间为2020-04-03 18:42:45.282022,等待耗时时间是0:00:00.027766
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.282521,结束时间为2020-04-03 18:42:45.302358,等待耗时时间是0:00:00.019837
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取弹窗的错误信息:等待('xpath', '//div[@class="text-center"]')元素可见
+ 2020-04-03 18:42:45  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:42:45.368097,结束时间为2020-04-03 18:42:45.896591,等待耗时时间是0:00:00.528494
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取弹窗的错误信息: 查找('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:42:45  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取弹窗的错误信息获取元素('xpath', '//div[@class="text-center"]')的文本值
+ 2020-04-03 18:42:45  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取弹窗的错误信息,获取文本值为请正确填写投标金额
+ 2020-04-03 18:43:09  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:43:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:09.559002,结束时间为2020-04-03 18:43:09.584299,等待耗时时间是0:00:00.025297
+ 2020-04-03 18:43:09  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:43:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:43:09  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:43:09  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.71
+ 2020-04-03 18:43:09  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:43:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:09.606128,结束时间为2020-04-03 18:43:09.630765,等待耗时时间是0:00:00.024637
+ 2020-04-03 18:43:09  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:43:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:43:09  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:43:09  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150903919.21
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:22.460371,结束时间为2020-04-03 18:43:22.485668,等待耗时时间是0:00:00.025297
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:22.594294,结束时间为2020-04-03 18:43:22.621571,等待耗时时间是0:00:00.027277
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:22.711347,结束时间为2020-04-03 18:43:22.741604,等待耗时时间是0:00:00.030257
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:43:22  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:43:22  INFO basepage.py wait_element_visible [ line:28 ] 主页_点击第一个标:等待('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素可见
+ 2020-04-03 18:43:44  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:43:22.844874,结束时间为2020-04-03 18:43:44.573881,等待耗时时间是0:00:21.729007
+ 2020-04-03 18:43:44  INFO basepage.py get_element [ line:49 ] 页面主页_点击第一个标: 查找('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:43:44  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]')元素
+ 2020-04-03 18:43:44  INFO basepage.py click_element [ line:81 ] 在页面:主页_点击第一个标对元素('xpath', '//div[@class="b-unit-list clearfix"]/div[1]//div[@class="b-title"]'),进行点击操作
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.451071,结束时间为2020-04-03 18:44:08.477370,等待耗时时间是0:00:00.026299
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:44:08  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.71
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.499195,结束时间为2020-04-03 18:44:08.517821,等待耗时时间是0:00:00.018626
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:44:08  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150903919.21
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_输入投资金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.534899,结束时间为2020-04-03 18:44:08.547275,等待耗时时间是0:00:00.012376
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:49 ] 页面投标页面_输入投资金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:08  INFO basepage.py input_text [ line:66 ] 在页面:投标页面_输入投资金额对元素('xpath', '//input[contains(@class,"invest-unit-investinput")]'),输入内容为:80
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_等待群主特权可见:等待('xpath', '//div[@class="footer"]/div[@class="left tt"]')元素可见
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.593216,结束时间为2020-04-03 18:44:08.617636,等待耗时时间是0:00:00.024420
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_点击投标按钮:等待('xpath', '// button[@class="btn btn-special height_style"]')元素可见
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.618958,结束时间为2020-04-03 18:44:08.637772,等待耗时时间是0:00:00.018814
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:49 ] 页面投标页面_点击投标按钮: 查找('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:44:08  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '// button[@class="btn btn-special height_style"]')元素
+ 2020-04-03 18:44:08  INFO basepage.py click_element [ line:81 ] 在页面:投标页面_点击投标按钮对元素('xpath', '// button[@class="btn btn-special height_style"]'),进行点击操作
+ 2020-04-03 18:44:08  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取弹窗的错误信息:等待('xpath', '//div[@class="text-center"]')元素可见
+ 2020-04-03 18:44:09  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:08.695580,结束时间为2020-04-03 18:44:09.223981,等待耗时时间是0:00:00.528401
+ 2020-04-03 18:44:09  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取弹窗的错误信息: 查找('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:44:09  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//div[@class="text-center"]')元素
+ 2020-04-03 18:44:09  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取弹窗的错误信息获取元素('xpath', '//div[@class="text-center"]')的文本值
+ 2020-04-03 18:44:09  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取弹窗的错误信息,获取文本值为投标金额必须为100的倍数
+ 2020-04-03 18:44:32  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取借款剩余金额:等待('xpath', '//span[@class="mo_span4"]')元素可见
+ 2020-04-03 18:44:32  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:32.860745,结束时间为2020-04-03 18:44:32.885560,等待耗时时间是0:00:00.024815
+ 2020-04-03 18:44:32  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取借款剩余金额: 查找('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:44:32  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//span[@class="mo_span4"]')元素
+ 2020-04-03 18:44:32  INFO basepage.py get_element_text [ line:95 ] 在页面:投标页面_获取借款剩余金额获取元素('xpath', '//span[@class="mo_span4"]')的文本值
+ 2020-04-03 18:44:32  INFO basepage.py get_element_text [ line:103 ] 在页面投标页面_获取借款剩余金额,获取文本值为198.71
+ 2020-04-03 18:44:32  INFO basepage.py wait_element_visible [ line:28 ] 投标页面_获取用户的金额:等待('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素可见
+ 2020-04-03 18:44:32  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:44:32.907944,结束时间为2020-04-03 18:44:32.931291,等待耗时时间是0:00:00.023347
+ 2020-04-03 18:44:32  INFO basepage.py get_element [ line:49 ] 页面投标页面_获取用户的金额: 查找('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:32  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[contains(@class,"invest-unit-investinput")]')元素
+ 2020-04-03 18:44:32  INFO basepage.py get_element_attribute [ line:112 ] 在页面:投标页面_获取用户的金额获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值
+ 2020-04-03 18:44:32  INFO basepage.py get_element_attribute [ line:120 ] 在页面投标页面_获取用户的金额,获取元素('xpath', '//input[contains(@class,"invest-unit-investinput")]')的属性data-amount的值为10150903919.21

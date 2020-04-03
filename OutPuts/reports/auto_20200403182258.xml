@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="LAPTOP-4VAN9SFJ" name="pytest" skipped="0" tests="18" time="1296.198" timestamp="2020-04-03T18:22:58.888031"><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="25" name="test_01_login_success" time="34.660"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case0]" time="15.666"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case1]" time="15.090"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case2]" time="15.686"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case3]" time="15.293"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case4]" time="15.232"></testcase><testcase classname="TestCases.test_01_login.TestLogin" file="TestCases\test_01_login.py" line="38" name="test_02_login_fail[case5]" time="15.149"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="23" name="test_01_success_invest" time="234.410"><failure message="selenium.common.exceptions.TimeoutException: Message:">self = &lt;TestCases.test_02_invest.TestInvest object at 0x000001904556AA58&gt;
+invest_pre_post = (&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;6d656b5087092ab57c73f516038f0a1f&quot;)&gt;, &lt;PageObjects.invest_page.InvestPage object at 0x00000190455F22B0&gt;)
+
+    def test_01_success_invest(self, invest_pre_post):
+        # 获取标的借款金额
+        loan_amount = invest_pre_post[1].get_loan_amount()
+        # 获取剩余金额
+        surplus_amount_before = float(invest_pre_post[1].get_surplus_amount())
+        # 获取用户账户余额
+        user_amount_before = float(invest_pre_post[1].get_user_amount())
+        # 输入投资金额
+        invest_pre_post[1].input_loan_amount(ID.success_datas[&apos;money&apos;])
+        # 点击投标按钮
+        invest_pre_post[1].click_invest_button()
+        # 出现投资成功的弹窗,点 查看激活
+&gt;       invest_pre_post[1].click_invest_success_alert()
+
+TestCases\test_02_invest.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+PageObjects\invest_page.py:33: in click_invest_success_alert
+    self.click_element(loc.invest_click_success_alert,&quot;投标页面_点击查看激活&quot;)
+Common\basepage.py:78: in click_element
+    self.wait_element_visible(locator, name_action)
+Common\basepage.py:31: in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_all_elements_located(locator))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;6d656b5087092ab57c73f516038f0a1f&quot;)&gt;
+method = &lt;selenium.webdriver.support.expected_conditions.visibility_of_all_elements_located object at 0x00000190455F2B70&gt;
+message = &apos;&apos;
+
+    def until(self, method, message=&apos;&apos;):
+        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \
+        return value is not False.&quot;&quot;&quot;
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, &apos;screen&apos;, None)
+                stacktrace = getattr(exc, &apos;stacktrace&apos;, None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message:
+
+C:\Python37\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException</failure></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case0]" time="164.732"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case1]" time="82.599"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case2]" time="82.792"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case3]" time="82.712"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case4]" time="84.071"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="48" name="test_02_fail_invest_one[case5]" time="83.126"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="72" name="test_03_fail_invest_two[case0]" time="83.404"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="72" name="test_03_fail_invest_two[case1]" time="83.564"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="72" name="test_03_fail_invest_two[case2]" time="82.992"></testcase><testcase classname="TestCases.test_02_invest.TestInvest" file="TestCases\test_02_invest.py" line="72" name="test_03_fail_invest_two[case3]" time="83.277"></testcase></testsuite></testsuites>

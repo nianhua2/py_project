@@ -1,0 +1,18 @@
+ 2020-04-03 18:17:38  INFO my_logger.py <module> [ line:25 ] hehehe
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入手机号:等待('xpath', '//input[@name="phone"]')元素可见
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:17:52.022119,结束时间为2020-04-03 18:17:52.048519,等待耗时时间是0:00:00.026400
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入手机号: 查找('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="phone"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入手机号对元素('xpath', '//input[@name="phone"]'),输入内容为:18684720553
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_输入密码:等待('xpath', '//input[@name="password"]')元素可见
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:17:52.138507,结束时间为2020-04-03 18:17:52.165982,等待耗时时间是0:00:00.027475
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:49 ] 页面登录页面_输入密码: 查找('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//input[@name="password"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py input_text [ line:66 ] 在页面:登录页面_输入密码对元素('xpath', '//input[@name="password"]'),输入内容为:python
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:28 ] 登录页面_点击登录:等待('xpath', '//button[@type="button"]')元素可见
+ 2020-04-03 18:17:52  INFO basepage.py wait_element_visible [ line:40 ] 等待结束  开始时间为2020-04-03 18:17:52.236892,结束时间为2020-04-03 18:17:52.257222,等待耗时时间是0:00:00.020330
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:49 ] 页面登录页面_点击登录: 查找('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py get_element [ line:57 ] 成功找到('xpath', '//button[@type="button"]')元素
+ 2020-04-03 18:17:52  INFO basepage.py click_element [ line:81 ] 在页面:登录页面_点击登录对元素('xpath', '//button[@type="button"]'),进行点击操作
+ 2020-04-03 18:18:14  INFO basepage.py judge_element_exist_visible [ line:126 ] 在页面:主页_检查我的账户判断元素：('xpath', '//a[contains(text(),"我的帐户")]')是否存在且可见
+ 2020-04-03 18:18:14  INFO basepage.py judge_element_exist_visible [ line:134 ] 在10时间内，找到了元素('xpath', '//a[contains(text(),"我的帐户")]')
